@@ -1,6 +1,4 @@
-/* =========================
-   GLOBAL
-========================= */
+
 
 * {
   box-sizing: border-box;
@@ -33,9 +31,7 @@ body {
   padding-right: 20px;
 }
 
-/* =========================
-   FLEX UTILITIES
-========================= */
+
 
 .d-flex {
   display: flex;
@@ -57,18 +53,14 @@ body {
   align-items: center;
 }
 
-/* =========================
-   LINKS
-========================= */
+
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* =========================
-   HEADER
-========================= */
+
 
 .logo-container {
   display: flex;
@@ -87,9 +79,7 @@ a {
   animation: flicker 2s infinite;
 }
 
-/* =========================
-   NAVBAR
-========================= */
+
 
 .nav-container {
   display: flex;
@@ -111,7 +101,7 @@ a {
   border-radius: 50px;
 }
 
-/* Navigation Items */
+
 
 .nav-item {
   color: #e5e5e5;
@@ -129,7 +119,7 @@ a {
     transform 0.25s ease;
 }
 
-/* Hover */
+
 
 .nav-item:hover {
   background-color: #333333;
@@ -138,16 +128,14 @@ a {
   transform: translateY(-1px);
 }
 
-/* Active */
+
 
 .nav-item.active {
   background-color: white;
   color: black;
 }
 
-/* =========================
-   HERO
-========================= */
+
 
 .hero {
   position: relative;
@@ -161,7 +149,7 @@ a {
   overflow: hidden;
 }
 
-/* Hero heading */
+
 
 .hero h3 {
   position: relative;
@@ -177,7 +165,7 @@ a {
   text-align: center;
 }
 
-/* Hero squiggly pattern */
+
 
 .hero-pattern {
   position: absolute;
@@ -202,9 +190,7 @@ a {
   pointer-events: none;
 }
 
-/* =========================
-   ABOUT
-========================= */
+
 
 .about-section {
   position: relative;
@@ -233,7 +219,7 @@ a {
   text-align: center;
 }
 
-/* About label */
+
 
 .section-label {
   display: block;
@@ -246,7 +232,7 @@ a {
   margin-bottom: 12px;
 }
 
-/* About heading */
+
 
 .about-content h1 {
   margin: 0 0 30px;
@@ -257,7 +243,7 @@ a {
   font-weight: 400;
 }
 
-/* About paragraph */
+
 
 .about-content p {
   max-width: 800px;
@@ -272,7 +258,7 @@ a {
   text-align: center;
 }
 
-/* About pattern */
+
 
 .about-pattern {
   position: absolute;
@@ -295,9 +281,7 @@ a {
   pointer-events: none;
 }
 
-/* =========================
-   PROJECTS
-========================= */
+
 
 .projects-section {
   position: relative;
@@ -310,7 +294,7 @@ a {
   padding: 120px 40px;
 }
 
-/* Projects content */
+
 
 .projects-content {
   position: relative;
@@ -322,7 +306,7 @@ a {
   margin: 0 auto;
 }
 
-/* Projects heading */
+
 
 .projects-heading {
   margin-bottom: 60px;
@@ -337,9 +321,7 @@ a {
   font-weight: 400;
 }
 
-/* =========================
-   PROJECT BACKGROUND
-========================= */
+
 
 .projects-pattern {
   position: absolute;
@@ -362,9 +344,7 @@ a {
   pointer-events: none;
 }
 
-/* =========================
-   PROJECT GRID
-========================= */
+
 
 .grid {
   display: grid;
@@ -374,9 +354,7 @@ a {
   gap: 25px;
 }
 
-/* =========================
-   PROJECT CARD
-========================= */
+
 
 .project-card {
   position: relative;
@@ -406,7 +384,7 @@ a {
     box-shadow 0.35s ease;
 }
 
-/* Card glow */
+
 
 .project-card::before {
   content: "";
@@ -428,7 +406,7 @@ a {
   transition: transform 0.5s ease;
 }
 
-/* Card hover */
+
 
 .project-card:hover {
   transform: translateY(-8px);
@@ -444,9 +422,7 @@ a {
   transform: scale(1.6);
 }
 
-/* =========================
-   PROJECT TOP
-========================= */
+
 
 .project-top {
   display: flex;
@@ -476,9 +452,7 @@ a {
   border-radius: 50px;
 }
 
-/* =========================
-   PROJECT BODY
-========================= */
+
 
 .project-body {
   margin-top: 50px;
@@ -506,9 +480,7 @@ a {
   line-height: 1.6;
 }
 
-/* =========================
-   PROJECT TAGS
-========================= */
+
 
 .project-footer {
   display: flex;
@@ -532,9 +504,7 @@ a {
   border-radius: 50px;
 }
 
-/* =========================
-   FOOTER
-========================= */
+
 
 .footer {
   position: relative;
@@ -549,7 +519,7 @@ a {
   overflow: hidden;
 }
 
-/* Footer squiggly pattern */
+
 
 .footer::before {
   content: "";
@@ -574,7 +544,7 @@ a {
   pointer-events: none;
 }
 
-/* Footer content */
+
 
 .footer-content {
   position: relative;
@@ -592,7 +562,7 @@ a {
   gap: 50px;
 }
 
-/* Left side */
+
 
 .footer-left {
   max-width: 750px;
@@ -622,7 +592,7 @@ a {
   line-height: 1.6;
 }
 
-/* Social icons */
+
 
 .footer-right {
   display: flex;
@@ -667,7 +637,7 @@ a {
   fill: white;
 }
 
-/* Footer bottom */
+
 
 .footer-bottom {
   position: relative;
@@ -690,7 +660,7 @@ a {
   font-size: 13px;
 }
 
-/* Footer animation */
+
 
 @keyframes footerWaves {
   from {
@@ -702,9 +672,7 @@ a {
   }
 }
 
-/* =========================
-   ANIMATIONS
-========================= */
+
 
 @keyframes flicker {
   0%,
@@ -744,9 +712,7 @@ a {
   }
 }
 
-/* =========================
-   LARGE DESKTOP
-========================= */
+
 
 @media (min-width: 950px) {
   .navbar {
@@ -760,9 +726,7 @@ a {
   }
 }
 
-/* =========================
-   TABLET
-========================= */
+
 
 @media (max-width: 900px) {
   .hero h3 {
@@ -782,12 +746,10 @@ a {
   }
 }
 
-/* =========================
-   MOBILE
-========================= */
+
 
 @media (max-width: 768px) {
-  /* Navbar */
+
 
   .navbar {
     width: 100%;
@@ -798,7 +760,7 @@ a {
     padding: 9px 12px;
   }
 
-  /* Hero */
+
 
   .hero {
     min-height: 350px;
@@ -808,7 +770,7 @@ a {
     font-size: 48px;
   }
 
-  /* About */
+
 
   .about-section {
     padding: 80px 25px;
@@ -822,7 +784,7 @@ a {
     font-size: 17px;
   }
 
-  /* Projects */
+
 
   .projects-section {
     padding: 90px 25px;
@@ -850,7 +812,7 @@ a {
     font-size: 36px;
   }
 
-  /* Footer */
+
 
   .footer {
     min-height: 450px;
@@ -883,18 +845,16 @@ a {
   }
 }
 
-/* =========================
-   SMALL MOBILE
-========================= */
+
 
 @media (max-width: 480px) {
-  /* Logo */
+
 
   .logo-container h1 {
     font-size: 30px;
   }
 
-  /* Navbar */
+
 
   .navbar {
     padding: 6px 8px;
@@ -905,7 +865,7 @@ a {
     padding: 8px 9px;
   }
 
-  /* Hero */
+
 
   .hero {
     min-height: 300px;
@@ -915,7 +875,7 @@ a {
     font-size: 38px;
   }
 
-  /* About */
+
 
   .about-section {
     min-height: 400px;
@@ -935,7 +895,7 @@ a {
     line-height: 1.6;
   }
 
-  /* Projects */
+
 
   .projects-section {
     padding: 70px 18px;
@@ -974,7 +934,7 @@ a {
     margin-top: 30px;
   }
 
-  /* Footer */
+
 
   .footer {
     min-height: 450px;
@@ -1010,5 +970,52 @@ a {
     gap: 8px;
 
     font-size: 12px;
+  }
+}
+
+
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #111111 transparent;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111111;
+  border-radius: 20px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+
+
+@media (max-width: 768px) {
+  html {
+    scrollbar-width: thin;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-width: 2px;
   }
 }
